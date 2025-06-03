@@ -121,7 +121,7 @@ onUnmounted(() => {
             <template v-else>
               <div class="flex items-center space-x-2">
                 <input type="text" placeholder="Cari..."
-                  class="bg-transparent border-b border-green-700 text-sm px-2 py-0.5 focus:outline-none w-32" />
+                  class="bg-transparent border-b border-green-700 text-sm px-2 py-0.5 focus:outline-none w-50" />
                 <button @click="toggleSearchDesktop"
                   class="text-green-700 text-lg font-bold hover:text-green-800">×</button>
               </div>
@@ -152,7 +152,7 @@ onUnmounted(() => {
             </template>
             <template v-else>
               <input type="text" placeholder="Cari"
-                class="w-32 bg-transparent border-b border-green-700 text-sm px-2 py-0.5 text-gray-800 placeholder-gray-500 focus:outline-none" />
+                class="w-50 bg-transparent border-b border-green-700 text-sm px-2 py-0.5 text-gray-800 placeholder-gray-500 focus:outline-none" />
               <button @click="toggleSearchMobile"
                 class="text-green-700 text-lg font-bold hover:text-green-800">×</button>
             </template>
