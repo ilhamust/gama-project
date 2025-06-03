@@ -1,7 +1,52 @@
+<script setup>
+import { ref } from 'vue'
+
+const showMobileMenu = ref(false)
+const searchOpenMobile = ref(false)
+const searchOpenDesktop = ref(false)
+
+function toggleMobileMenu() {
+  showMobileMenu.value = !showMobileMenu.value
+}
+
+function toggleSearchMobile() {
+  searchOpenMobile.value = !searchOpenMobile.value
+}
+
+function toggleSearchDesktop() {
+  searchOpenDesktop.value = !searchOpenDesktop.value
+}
+
+function closeMenu() {
+  showMobileMenu.value = false
+}
+
+import { onMounted, onUnmounted } from 'vue'
+
+const isScrolled = ref(false)
+
+function handleScroll() {
+  isScrolled.value = window.scrollY > 10
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
+</script>
+
 <template>
   <div>
     <!-- HEADER -->
-    <header class="bg-white shadow sticky top-0 z-50">
+    <header :class="[
+      'sticky top-0 z-50 transition-all duration-300 backdrop-blur-md',
+      isScrolled
+        ? 'bg-white bg-opacity-80 shadow'
+        : 'bg-white'
+    ]">
+
       <div class="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
         <!-- Logo -->
         <router-link to="/" class="flex items-center gap-2">
@@ -135,27 +180,3 @@
     </footer>
   </div>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-
-const showMobileMenu = ref(false)
-const searchOpenMobile = ref(false)
-const searchOpenDesktop = ref(false)
-
-function toggleMobileMenu() {
-  showMobileMenu.value = !showMobileMenu.value
-}
-
-function toggleSearchMobile() {
-  searchOpenMobile.value = !searchOpenMobile.value
-}
-
-function toggleSearchDesktop() {
-  searchOpenDesktop.value = !searchOpenDesktop.value
-}
-
-function closeMenu() {
-  showMobileMenu.value = false
-}
-</script>
