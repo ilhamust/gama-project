@@ -4,24 +4,28 @@ import { Autoplay, Pagination } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/autoplay'
 import 'swiper/css/pagination'
+import hero1 from '/src/assets/images/hero1.jpg'
+import hero2 from '/src/assets/images/hero2.jpg'
+import hero3 from '/src/assets/images/hero3.jpg'
+
 
 const slides = [
   {
-    image: '/src/assets/images/hero1.jpg',
+    image: hero1,
     title: 'Lindungi Panen Anda Sekarang',
     subtitle: 'Asuransi pertanian modern, cepat, dan terpercaya.',
     ctaText: 'Pelajari Produk',
     ctaLink: '/produk-asuransi'
   },
   {
-    image: '/src/assets/images/hero2.jpg',
+    image: hero2,
     title: 'Diskon Alat Tani Eksklusif',
     subtitle: 'Dapatkan voucher potongan harga hingga 50%',
     ctaText: 'Lihat Alat Tani',
     ctaLink: '/informasi-alat'
   },
   {
-    image: '/src/assets/images/hero3.jpg',
+    image: hero3,
     title: 'Edukasi & Konsultasi Pertanian',
     subtitle: 'Bersama GAMA, Anda tidak sendiri.',
     ctaText: 'Mulai Belajar',
