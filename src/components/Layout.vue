@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from 'vue'
+import { useRoute } from 'vue-router'
+const route = useRoute()
 
 const showMobileMenu = ref(false)
 const searchOpenMobile = ref(false)
@@ -55,30 +57,54 @@ onUnmounted(() => {
 
         <!-- Menu Desktop + Tablet -->
         <nav class="hidden lg:flex items-center space-x-6 text-gray-700 font-medium relative">
-          <router-link to="/" class="relative group pb-1 hover:text-green-700">
+          <!-- Beranda -->
+          <router-link to="/" class="relative group pb-1" :class="{
+            'text-green-700': route.path === '/',
+            'text-gray-700 hover:text-green-700': route.path !== '/'
+          }">
             <span>Beranda</span>
-            <span
-              class="absolute left-0 bottom-0 h-0.5 w-0 bg-green-700 transition-all duration-300 group-hover:w-full"></span>
+            <span class="absolute left-0 bottom-0 h-0.5 bg-green-700 transition-all duration-300"
+              :class="route.path === '/' ? 'w-full' : 'w-0 group-hover:w-full'"></span>
           </router-link>
-          <router-link to="/produk-asuransi" class="relative group pb-1 hover:text-green-700">
+
+          <!-- Produk -->
+          <router-link to="/produk-asuransi" class="relative group pb-1" :class="{
+            'text-green-700': route.path.startsWith('/produk-asuransi'),
+            'text-gray-700 hover:text-green-700': !route.path.startsWith('/produk-asuransi')
+          }">
             <span>Produk</span>
-            <span
-              class="absolute left-0 bottom-0 h-0.5 w-0 bg-green-700 transition-all duration-300 group-hover:w-full"></span>
+            <span class="absolute left-0 bottom-0 h-0.5 bg-green-700 transition-all duration-300"
+              :class="route.path.startsWith('/produk-asuransi') ? 'w-full' : 'w-0 group-hover:w-full'"></span>
           </router-link>
-          <router-link to="/informasi-alat" class="relative group pb-1 hover:text-green-700">
+
+          <!-- Alat Tani -->
+          <router-link to="/informasi-alat" class="relative group pb-1" :class="{
+            'text-green-700': route.path.startsWith('/informasi-alat'),
+            'text-gray-700 hover:text-green-700': !route.path.startsWith('/informasi-alat')
+          }">
             <span>Alat Tani</span>
-            <span
-              class="absolute left-0 bottom-0 h-0.5 w-0 bg-green-700 transition-all duration-300 group-hover:w-full"></span>
+            <span class="absolute left-0 bottom-0 h-0.5 bg-green-700 transition-all duration-300"
+              :class="route.path.startsWith('/informasi-alat') ? 'w-full' : 'w-0 group-hover:w-full'"></span>
           </router-link>
-          <router-link to="/informasi-alat" class="relative group pb-1 hover:text-green-700">
+
+          <!-- Edukasi -->
+          <router-link to="/edukasi" class="relative group pb-1" :class="{
+            'text-green-700': route.path.startsWith('/edukasi'),
+            'text-gray-700 hover:text-green-700': !route.path.startsWith('/edukasi')
+          }">
             <span>Edukasi</span>
-            <span
-              class="absolute left-0 bottom-0 h-0.5 w-0 bg-green-700 transition-all duration-300 group-hover:w-full"></span>
+            <span class="absolute left-0 bottom-0 h-0.5 bg-green-700 transition-all duration-300"
+              :class="route.path.startsWith('/edukasi') ? 'w-full' : 'w-0 group-hover:w-full'"></span>
           </router-link>
-          <router-link to="/informasi-alat" class="relative group pb-1 hover:text-green-700">
+
+          <!-- Tentang Kami -->
+          <router-link to="/tentang-kami" class="relative group pb-1" :class="{
+            'text-green-700': route.path.startsWith('/tentang-kami'),
+            'text-gray-700 hover:text-green-700': !route.path.startsWith('/tentang-kami')
+          }">
             <span>Tentang Kami</span>
-            <span
-              class="absolute left-0 bottom-0 h-0.5 w-0 bg-green-700 transition-all duration-300 group-hover:w-full"></span>
+            <span class="absolute left-0 bottom-0 h-0.5 bg-green-700 transition-all duration-300"
+              :class="route.path.startsWith('/tentang-kami') ? 'w-full' : 'w-0 group-hover:w-full'"></span>
           </router-link>
 
           <!-- Desktop/tablet search -->

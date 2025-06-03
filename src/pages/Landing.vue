@@ -1,12 +1,20 @@
 <template>
   <Layout>
-    <section class="text-center mt-10">
-      <h1 class="text-3xl font-bold text-green-700">Selamat datang di GAMA</h1>
-      <p class="text-gray-600 mt-2">Solusi perlindungan asuransi pertanian digital</p>
-    </section>
+    <HeroSection />
+    <CompanyProfileSection />
+    <!-- <FeaturesSection />
+    <StatsSection />
+    <TestimonialsSection />
+    <CallToAction /> -->
   </Layout>
 </template>
 
 <script setup>
 import Layout from '../components/Layout.vue'
+import HeroSection from '../components/LandingPage/HeroSection.vue'
+import CompanyProfileSection from '../components/LandingPage/CompanyProfileSection.vue'
+// import FeaturesSection from '../components/FeaturesSection.vue'
+// import StatsSection from '../components/StatsSection.vue'
+// import TestimonialsSection from '../components/TestimonialsSection.vue'
+// import CallToAction from '../components/CallToAction.vue'
 </script>
