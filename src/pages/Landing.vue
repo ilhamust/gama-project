@@ -1,7 +1,8 @@
 <template>
   <Layout>
     <HeroSection />
-    <CompanyProfileSection />
+    <NewsSection />
+    <!-- <CompanyProfileSection /> -->
     <!-- <FeaturesSection />
     <StatsSection />
     <TestimonialsSection />
@@ -12,7 +13,8 @@
 <script setup>
 import Layout from '../components/Layout.vue'
 import HeroSection from '../components/LandingPage/HeroSection.vue'
-import CompanyProfileSection from '../components/LandingPage/CompanyProfileSection.vue'
+import NewsSection from '../components/LandingPage/NewsSection.vue'
+// import CompanyProfileSection from '../components/LandingPage/CompanyProfileSection.vue'
 // import FeaturesSection from '../components/FeaturesSection.vue'
 // import StatsSection from '../components/StatsSection.vue'
 // import TestimonialsSection from '../components/TestimonialsSection.vue'

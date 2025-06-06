@@ -12,24 +12,18 @@ import hero3 from '/src/assets/images/hero3.jpg'
 const slides = [
   {
     image: hero1,
-    title: 'Lindungi Panen Anda Sekarang',
-    subtitle: 'Asuransi pertanian modern, cepat, dan terpercaya.',
-    ctaText: 'Pelajari Produk',
-    ctaLink: '/produk-asuransi'
+    title: 'Asuransi Gagal Panen',
+    subtitle: 'Lindungi hasil panen Anda dari risiko cuaca ekstrem, hama, dan bencana alam. Panen aman, petani tenang.',
   },
   {
     image: hero2,
-    title: 'Diskon Alat Tani Eksklusif',
-    subtitle: 'Dapatkan voucher potongan harga hingga 50%',
-    ctaText: 'Lihat Alat Tani',
-    ctaLink: '/informasi-alat'
+    title: 'Asuransi Alat Tani',
+    subtitle: 'Perlindungan untuk traktor, pompa, dan alat pertanian lainnya dari kerusakan atau kehilangan. Alat terjaga, kerja lancar.',
   },
   {
     image: hero3,
-    title: 'Edukasi & Konsultasi Pertanian',
-    subtitle: 'Bersama GAMA, Anda tidak sendiri.',
-    ctaText: 'Mulai Belajar',
-    ctaLink: '/edukasi'
+    title: 'Asuransi Harga Komoditas',
+    subtitle: 'Jaminan harga jual komoditas Anda tetap stabil. Harga anjlok, petani tetap untung.',
   }
 ]
 </script>
@@ -59,20 +53,6 @@ const slides = [
           <p class="text-base md:text-lg mb-6 text-white/90">
             {{ slide.subtitle }}
           </p>
-          <div class="flex gap-4 flex-wrap">
-            <router-link
-              :to="slide.ctaLink"
-              class="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded shadow transition"
-            >
-              {{ slide.ctaText }}
-            </router-link>
-            <router-link
-              to="/kontak"
-              class="border border-white text-white px-6 py-2 rounded hover:bg-white hover:text-green-700 transition"
-            >
-              Hubungi Kami
-            </router-link>
-          </div>
         </div>
       </div>
     </SwiperSlide>
