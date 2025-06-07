@@ -1,5 +1,4 @@
 <template>
-  <Layout>
     <HeroSection />
     <NewsSection />
     <!-- <CompanyProfileSection /> -->
@@ -7,7 +6,6 @@
     <StatsSection />
     <TestimonialsSection />
     <CallToAction /> -->
-  </Layout>
 </template>
 
 <script setup>
