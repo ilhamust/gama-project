@@ -201,8 +201,70 @@ onUnmounted(() => {
     </main>
 
     <!-- FOOTER -->
-    <footer class="bg-gray-100 text-center text-sm text-gray-500 py-4 mt-10">
-      &copy; 2025 GAMA. Semua hak dilindungi.
+    <footer class="bg-green-700 text-white mt-16 px-6 md:px-16 pt-14">
+      <!-- Bagian Utama Footer -->
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 pb-10">
+
+        <!-- Kolom 1: Logo & Deskripsi -->
+        <div>
+          <div class="flex items-center gap-2 mb-4">
+            <img src="/src/assets/images/gama-logo.png" alt="Logo GAMA" class="w-10 h-10" />
+            <span class="text-xl font-bold">GAMA</span>
+          </div>
+          <p class="text-sm text-white/80 mb-4 leading-relaxed">
+            Garda Masyarakat Agraria, solusi asuransi dan edukasi pertanian modern.
+          </p>
+          <div class="flex gap-3 text-white">
+            <a href="https://instagram.com" target="_blank" class="hover:text-green-300" aria-label="Instagram">
+              <i class="fab fa-instagram text-lg"></i>
+            </a>
+            <a href="https://facebook.com" target="_blank" class="hover:text-green-300" aria-label="Facebook">
+              <i class="fab fa-facebook-f text-lg"></i>
+            </a>
+            <a href="https://wa.me/628123456789" target="_blank" class="hover:text-green-300" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp text-lg"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Kolom 2: Produk & Layanan -->
+        <div>
+          <h3 class="text-md font-semibold mb-3">Produk & Layanan</h3>
+          <ul class="space-y-2 text-sm text-white/90">
+            <li><router-link to="/produk-asuransi" class="hover:underline">Asuransi Gagal Panen</router-link></li>
+            <li><router-link to="/produk-asuransi" class="hover:underline">Asuransi Harga Komoditas</router-link></li>
+            <li><router-link to="/produk-asuransi" class="hover:underline">Asuransi Alat Tani</router-link></li>
+            <li><router-link to="/konsultasi" class="hover:underline">Konsultasi Pertanian</router-link></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 3: Informasi -->
+        <div>
+          <h3 class="text-md font-semibold mb-3">Informasi</h3>
+          <ul class="space-y-2 text-sm text-white/90">
+            <li><router-link to="/edukasi" class="hover:underline">Edukasi Pertanian</router-link></li>
+            <li><router-link to="/informasi-alat" class="hover:underline">Informasi Alat Tani</router-link></li>
+            <li><router-link to="/tentang-kami" class="hover:underline">Tentang Kami</router-link></li>
+            <li><router-link to="/kontak" class="hover:underline">Hubungi Kami</router-link></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 4: Kontak -->
+        <div>
+          <h3 class="text-md font-semibold mb-3">Kontak Kami</h3>
+          <p class="text-sm text-white/80 leading-relaxed">
+            Jl. Pertanian No. 123<br />
+            Sleman, Yogyakarta 55281<br />
+            Email: <a href="mailto:info@gama.id" class="underline">info@gama.id</a><br />
+            Telp: <a href="tel:+62123456789" class="underline">+62 123 4567 89</a>
+          </p>
+        </div>
+      </div>
+      <!-- Copyright -->
+<div class="text-center text-xs text-white/70 mt-4 border-t border-white/20 pt-2 pb-4">
+  &copy; 2025 GAMA (Garda Masyarakat Agraria). Semua hak cipta dilindungi.
+</div>
+
     </footer>
   </div>
 </template>
