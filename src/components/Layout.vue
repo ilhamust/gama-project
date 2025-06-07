@@ -261,10 +261,9 @@ onUnmounted(() => {
         </div>
       </div>
       <!-- Copyright -->
-<div class="text-center text-xs text-white/70 mt-4 border-t border-white/20 pt-2 pb-4">
-  &copy; 2025 GAMA (Garda Masyarakat Agraria). Semua hak cipta dilindungi.
-</div>
-
+      <div class="text-center text-xs text-white/70 mt-4 border-t border-white/20 pt-2 pb-4">
+        &copy; 2025 GAMA (Garda Masyarakat Agraria). Semua hak cipta dilindungi.
+      </div>
     </footer>
   </div>
 </template>

@@ -1,11 +1,9 @@
-<script setup>
-// Tidak perlu import HelloWorld lagi
-</script>
-
 <template>
-  <router-view />
+  <Layout>
+    <router-view />
+  </Layout>
 </template>
 
-<style>
-/* Kosongkan atau pindahkan styling ke komponen lain jika perlu */
-</style>
+<script setup>
+import Layout from './components/Layout.vue'
+</script>
