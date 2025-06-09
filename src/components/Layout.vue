@@ -205,7 +205,7 @@ onUnmounted(() => {
             Garda Masyarakat Agraria, solusi asuransi dan edukasi pertanian modern.
           </p>
           <div class="flex gap-3 text-white">
-            <a href="https://instagram.com" target="_blank" class="hover:text-green-300" aria-label="Instagram">
+            <a href="https://instagram.com/gamagroup.id" target="_blank" class="hover:text-green-300" aria-label="Instagram">
               <i class="fab fa-instagram text-lg"></i>
             </a>
             <a href="https://facebook.com" target="_blank" class="hover:text-green-300" aria-label="Facebook">
@@ -243,10 +243,10 @@ onUnmounted(() => {
         <div>
           <h3 class="text-md font-semibold mb-3">Kontak Kami</h3>
           <p class="text-sm text-white/80 leading-relaxed">
-            Jl. Pertanian No. 123<br />
-            Sleman, Yogyakarta 55281<br />
-            Email: <a href="mailto:info@gama.id" class="underline">info@gama.id</a><br />
-            Telp: <a href="tel:+62123456789" class="underline">+62 123 4567 89</a>
+            Jl. Ringroad Barat, Dowangan<br />
+            Sleman, Yogyakarta 5529<br />
+            Email: <a href="mailto:gama@gmail.com" class="underline">gama@gmail.com</a><br />
+            Telp: <a href="tel:+628818548476" class="underline">+62 881 8548 476</a>
           </p>
         </div>
       </div>
