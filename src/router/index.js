@@ -3,12 +3,14 @@ import Landing from '../pages/Landing.vue'
 import Login from '../pages/Login.vue'
 import Dashboard from '../pages/Dashboard.vue'
 import ProdukAsuransi from '../pages/ProdukAsuransi.vue'
+import Edukasi from '../pages/Edukasi.vue'
 
 const routes = [
   { path: '/', component: Landing },
   { path: '/login', component: Login },
   { path: '/dashboard', component: Dashboard },
-  { path: '/produk-asuransi', component: ProdukAsuransi }
+  { path: '/produk-asuransi', component: ProdukAsuransi },
+  { path: '/edukasi', component: Edukasi }
 ]
 
 const router = createRouter({
