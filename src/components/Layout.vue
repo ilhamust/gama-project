@@ -77,16 +77,6 @@ onUnmounted(() => {
               :class="route.path.startsWith('/produk-asuransi') ? 'w-full' : 'w-0 group-hover:w-full'"></span>
           </router-link>
 
-          <!-- Alat Tani -->
-          <router-link to="/informasi-alat" class="relative group pb-1" :class="{
-            'text-green-700': route.path.startsWith('/informasi-alat'),
-            'text-gray-700 hover:text-green-700': !route.path.startsWith('/informasi-alat')
-          }">
-            <span>Alat Tani</span>
-            <span class="absolute left-0 bottom-0 h-0.5 bg-green-700 transition-all duration-300"
-              :class="route.path.startsWith('/informasi-alat') ? 'w-full' : 'w-0 group-hover:w-full'"></span>
-          </router-link>
-
           <!-- Edukasi -->
           <router-link to="/edukasi" class="relative group pb-1" :class="{
             'text-green-700': route.path.startsWith('/edukasi'),
