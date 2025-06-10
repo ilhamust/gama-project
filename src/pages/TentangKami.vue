@@ -30,7 +30,7 @@
             </p>
             <p class="text-gray-700 mt-4">
               <strong>Komitmen kami:</strong> Memberikan pelayanan yang transparan, proses klaim yang cepat, dan edukasi
-              keuangan menyeluruh kepada seluruh petani.
+              keuangan menyeluruh kepada seluruh petani. Bersama tim profesional dan teknologi canggih, kami berupaya menciptakan ekosistem asuransi pertanian digital yang inklusif dan ramah pengguna untukmendukung ketahanan pangan Nasional.
             </p>
           </div>
 
@@ -44,11 +44,11 @@
 
             <!-- Deskripsi -->
             <ul class="space-y-2 text-gray-700 list-disc pl-5">
-              <li><strong>Tanaman:</strong> Melambangkan akar kehidupan petani dan semangat pertumbuhan.</li>
-              <li><strong>Dua tangan terbuka:</strong> Menggambarkan kehadiran yang merangkul dan melayani.</li>
-              <li><strong>Perisai:</strong> Simbol kesiapsiagaan dan ketahanan.</li>
-              <li><strong>Warna kuning:</strong> Mewakili cahaya dan semangat positif.</li>
-              <li><strong>Warna hijau:</strong> Menunjukkan keseimbangan, kesuburan, dan keberlanjutan.</li>
+              <li><strong>Tanaman:</strong> Melambangkan akar kehidupan petani dan semangat pertumbuhan. Tanaman mencerminkan harapan baru dan hasil yang tumbuh dari perlindungan yang kuat yang menjadi peran GAMA dalam menjaga pertanian.</li>
+              <li><strong>Dua tangan terbuka:</strong> Menggambarkan kehadiran yang merangkul dan melayani. Tangan terbuka menandakan bahwa GAMA hadir bukan hanya sebagai penyedia layanan tetapi juga sebagai mitra yang siap menolong, mendampingi, dan memberi rasa aman kepada petani.</li>
+              <li><strong>Perisai:</strong> Simbol kesiapsiagaan dan ketahanan. Perisai menunjukkan komitmen GAMA dalam menjaga petani dari risiko-risiko yang tak terduga, memberikan rasa aman yang menjadi pondasi keberlanjutan usaha tani.</li>
+              <li><strong>Warna kuning:</strong> Mewakili cahaya dan semangat positif. Warna ini menjadi lambang harapan baru bagi petani untuk berani menghadapi risiko dengan percaya diri, karena ada perlindungan yang menjamin usaha mereka tidak sia-sia.</li>
+              <li><strong>Warna hijau:</strong> Menunjukkan keseimbangan, kesuburan, dan keberlanjutan. Hijau menegaskan bahwa GAMA berpijak pada semangat pertanian yang alami, lestari, dan ramah lingkungan, dengan menempatkan kesejahteraan petani sebagai prioritas utama.</li>
             </ul>
           </div>
 
