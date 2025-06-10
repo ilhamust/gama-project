@@ -159,7 +159,7 @@ onUnmounted(() => {
             <img src="/src/assets/images/gama-logo-putih-text.png" alt="Logo GAMA" class="w-30 h-20" />
           </div>
           <p class="text-sm text-white/80 mb-4 leading-relaxed">
-            Garda Masyarakat Agraria, solusi asuransi dan edukasi pertanian modern.
+            Bersama membangun ekonomi hijau menuju ketahanan pangan nasional
           </p>
           <div class="flex gap-3 text-white">
             <a href="https://instagram.com/gamagroup.id" target="_blank" class="hover:text-green-300"

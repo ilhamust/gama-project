@@ -63,7 +63,7 @@
         <div class="hidden md:w-1/2 bg-gradient-to-br from-green-700 to-green-600 text-white p-8  flex-col items-center justify-center md:flex">
           <img src="/src/assets/images/gama-logo-putih.png" alt="GAMA Logo" class="w-24 mb-4" />
           <h2 class="text-xl font-bold mb-2 text-center">Selamat Datang di GAMA</h2>
-          <p class="text-sm text-center">Solusi asuransi dan edukasi pertanian yang mudah dan cepat.</p>
+          <p class="text-sm text-center">Bersama membangun ekonomi hijau menuju ketahanan pangan nasional</p>
         </div>
       </div>
     </div>
