@@ -169,7 +169,7 @@ onUnmounted(() => {
             <a href="https://facebook.com" target="_blank" class="hover:text-green-300" aria-label="Facebook">
               <i class="fab fa-facebook-f text-lg"></i>
             </a>
-            <a href="https://wa.me/628123456789" target="_blank" class="hover:text-green-300" aria-label="WhatsApp">
+            <a href="https://wa.me/628818548476" target="_blank" class="hover:text-green-300" aria-label="WhatsApp">
               <i class="fab fa-whatsapp text-lg"></i>
             </a>
           </div>
