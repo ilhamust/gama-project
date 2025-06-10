@@ -148,7 +148,7 @@ onUnmounted(() => {
     </main>
 
     <!-- FOOTER -->
-    <footer class="bg-green-700 text-white mt-16 px-6 md:px-16 pt-14">
+    <footer class="bg-green-700 text-white  px-6 md:px-16 pt-14">
       <!-- Bagian Utama Footer -->
       <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 pb-10">
 
