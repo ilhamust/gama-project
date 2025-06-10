@@ -43,11 +43,9 @@ onUnmounted(() => {
   <div>
     <!-- HEADER -->
     <header :class="[
-      'sticky top-0 z-50 transition-all duration-300 backdrop-blur-md',
-      isScrolled
-        ? 'bg-white bg-opacity-80 shadow'
-        : 'bg-white'
-    ]">
+  'sticky top-0 z-50 transition-all duration-300',
+  (isScrolled || showMobileMenu) ? 'bg-white shadow' : 'bg-white/80 backdrop-blur-md'
+]">
 
       <div class="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
         <!-- Logo -->
@@ -154,9 +152,8 @@ onUnmounted(() => {
 
         <!-- Kolom 1: Logo & Deskripsi -->
         <div>
-          <div class="flex items-center gap-2 mb-4">
-            <img src="/src/assets/images/gama-logo.png" alt="Logo GAMA" class="w-10 h-10" />
-            <span class="text-xl font-bold">GAMA</span>
+          <div class="flex items-center mb-4">
+            <img src="/src/assets/images/gama-logo-putih-text.png" alt="Logo GAMA" class="w-30 h-20" />
           </div>
           <p class="text-sm text-white/80 mb-4 leading-relaxed">
             Garda Masyarakat Agraria, solusi asuransi dan edukasi pertanian modern.
