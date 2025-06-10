@@ -43,9 +43,12 @@ onUnmounted(() => {
   <div>
     <!-- HEADER -->
     <header :class="[
-  'sticky top-0 z-50 transition-all duration-300',
-  (isScrolled || showMobileMenu) ? 'bg-white shadow' : 'bg-white/80 backdrop-blur-md'
-]">
+      'sticky top-0 z-50 transition-all duration-300',
+      showMobileMenu
+        ? 'bg-white shadow'
+        : (isScrolled ? 'bg-white/45 backdrop-blur-md shadow' : 'bg-white/80 backdrop-blur-md')
+    ]">
+
 
       <div class="max-w-7xl mx-auto px-4 py-5 flex justify-between items-center">
         <!-- Logo -->
@@ -159,7 +162,8 @@ onUnmounted(() => {
             Garda Masyarakat Agraria, solusi asuransi dan edukasi pertanian modern.
           </p>
           <div class="flex gap-3 text-white">
-            <a href="https://instagram.com/gamagroup.id" target="_blank" class="hover:text-green-300" aria-label="Instagram">
+            <a href="https://instagram.com/gamagroup.id" target="_blank" class="hover:text-green-300"
+              aria-label="Instagram">
               <i class="fab fa-instagram text-lg"></i>
             </a>
             <a href="https://facebook.com" target="_blank" class="hover:text-green-300" aria-label="Facebook">
