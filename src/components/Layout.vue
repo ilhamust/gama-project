@@ -97,29 +97,6 @@ onUnmounted(() => {
               :class="route.path.startsWith('/tentang-kami') ? 'w-full' : 'w-0 group-hover:w-full'"></span>
           </router-link>
 
-          <!-- Desktop/tablet search -->
-          <div class="relative group flex items-center ml-2">
-            <template v-if="!searchOpenDesktop">
-              <button @click="toggleSearchDesktop" class="text-green-700 hover:text-green-800">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
-                  stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M21 21l-4.35-4.35M17 11A6 6 0 1111 5a6 6 0 016 6z" />
-                </svg>
-              </button>
-            </template>
-            <template v-else>
-              <div class="flex items-center space-x-2">
-                <input type="text" placeholder="Cari..."
-                  class="bg-transparent border-b border-green-700 text-sm px-2 py-0.5 focus:outline-none w-50" />
-                <button @click="toggleSearchDesktop"
-                  class="text-green-700 text-lg font-bold hover:text-green-800">×</button>
-              </div>
-            </template>
-          </div>
-
-
-
           <router-link to="/login">
             <button class="ml-4 bg-green-700 text-white px-4 py-1.5 rounded hover:bg-green-800 transition">
               Login
@@ -129,24 +106,6 @@ onUnmounted(() => {
 
         <!-- MOBILE INLINE SEARCH + MENU -->
         <div class="lg:hidden flex items-center gap-2 relative">
-          <!-- Search Toggle / Input -->
-          <div class="flex items-center gap-1">
-            <template v-if="!searchOpenMobile">
-              <button @click="toggleSearchMobile" class="text-green-700 hover:text-green-800">
-                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24"
-                  stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M21 21l-4.35-4.35M17 11A6 6 0 1111 5a6 6 0 016 6z" />
-                </svg>
-              </button>
-            </template>
-            <template v-else>
-              <input type="text" placeholder="Cari"
-                class="w-50 bg-transparent border-b border-green-700 text-sm px-2 py-0.5 text-gray-800 placeholder-gray-500 focus:outline-none" />
-              <button @click="toggleSearchMobile"
-                class="text-green-700 text-lg font-bold hover:text-green-800">×</button>
-            </template>
-          </div>
 
           <!-- Hamburger Menu -->
           <button @click="toggleMobileMenu">
@@ -171,8 +130,6 @@ onUnmounted(() => {
             <router-link to="/" class="block hover:text-green-700" @click="closeMenu">Beranda</router-link>
             <router-link to="/produk-asuransi" class="block hover:text-green-700"
               @click="closeMenu">Produk</router-link>
-            <router-link to="/informasi-alat" class="block hover:text-green-700" @click="closeMenu">Alat
-              Tani</router-link>
             <router-link to="/edukasi" class="block hover:text-green-700" @click="closeMenu">Edukasi</router-link>
             <router-link to="/tentang-kami" class="block hover:text-green-700" @click="closeMenu">Tentang
               Kami</router-link>
