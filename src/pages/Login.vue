@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen flex items-center justify-center bg-gradient-to-br from-green-100 to-green-50 px-4 py-12">
+  <section class="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-12">
     <div class="bg-white shadow-xl rounded-2xl w-full max-w-4xl overflow-hidden">
       <div class="flex flex-col md:flex-row">
         <!-- Tabs -->
