@@ -16,7 +16,10 @@
               <component :is="item.icon" class="w-6 h-6 text-white" />
               <h3 class="text-lg font-semibold">{{ item.title }}</h3>
             </div>
-            <p class="text-sm">Rp {{ item.price.toLocaleString('id-ID') }}/musim</p>
+            <p class="text-sm">
+  Rp {{ item.price.toLocaleString('id-ID') }}/{{ item.unit }}
+</p>
+
 
             <span v-if="item.popular"
               class="absolute top-3 right-3 bg-yellow-400 text-green-900 text-xs font-bold px-2 py-0.5 rounded-full">
@@ -65,6 +68,7 @@ const products = [
   {
     title: 'Asuransi Gagal Panen',
     price: 100000,
+    unit : 'musim',
     icon: ShieldCheckIcon,
     popular: true,
     benefits: [
@@ -72,12 +76,15 @@ const products = [
       'Klaim cepat & mudah',
       'Didukung pemerintah & mitra terpercaya'
     ],
-    startLink: '/daftar/gagal-panen',
-    detailLink: '/asuransi/gagal-panen'
+    // startLink: '/daftar/gagal-panen',
+    // detailLink: '/asuransi/gagal-panen'
+    startLink: '/under-construction',
+    detailLink: '/under-construction'
   },
   {
     title: 'Asuransi Harga Komoditas',
     price: 75000,
+    unit : 'hektare',
     icon: CurrencyDollarIcon,
     popular: false,
     benefits: [
@@ -91,11 +98,11 @@ const products = [
   {
     title: 'Asuransi Alat Tani',
     price: 50000,
+    unit : 'alat',
     icon: WrenchScrewdriverIcon,
     popular: false,
     benefits: [
       'Proteksi alat pertanian penting',
-      'Ganti rugi kerusakan & kehilangan',
       'Kinerja pertanian lebih terjaga'
     ],
     startLink: '/daftar/alat-tani',
