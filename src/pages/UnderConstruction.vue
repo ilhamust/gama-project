@@ -21,7 +21,7 @@
     <!-- Tombol Aksi -->
     <div class="flex flex-col sm:flex-row gap-4 justify-center">
       <a
-        href="mailto:dev@gama.id"
+        href="https://wa.me/628818548476"
         class="px-5 py-2 border border-green-700 text-green-700 hover:bg-green-700 hover:text-white rounded-md transition"
       >
         Hubungi Developer
