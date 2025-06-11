@@ -12,7 +12,8 @@
       <!-- Kelas Mini Section -->
       <div class="flex justify-between items-center mb-4">
         <h3 class="text-xl font-semibold text-gray-800">Kelas Mini</h3>
-        <router-link to="/edukasi/kelas-mini" class="text-green-700 font-medium hover:underline">Temukan Kelas Lainnya →</router-link>
+        <router-link to="/under-construction" class="text-green-700 font-medium hover:underline">Temukan Kelas Lainnya →</router-link>
+        <!-- /edukasi/kelas-mini  -->
       </div>
       <div class="overflow-x-auto pb-6">
         <div class="flex gap-6 w-max">
@@ -40,7 +41,8 @@
       <!-- Tanya Pakar Section -->
       <div class="flex justify-between items-center mb-4 mt-10">
         <h3 class="text-xl font-semibold text-gray-800">Tanya Pakar</h3>
-        <router-link to="/edukasi/tanya-pakar" class="text-green-700 font-medium hover:underline">Temukan Kelas Lainnya →</router-link>
+        <router-link to="/under-construction" class="text-green-700 font-medium hover:underline">Temukan Kelas Lainnya →</router-link>
+        <!-- /edukasi/tanya-pakar -->
       </div>
       <div class="overflow-x-auto pb-6">
         <div class="flex gap-6 w-max">
@@ -68,7 +70,8 @@
       <!-- Video Interaktif Section -->
       <div class="flex justify-between items-center mb-4 mt-10">
         <h3 class="text-xl font-semibold text-gray-800">Video Interaktif</h3>
-        <router-link to="/edukasi/video" class="text-green-700 font-medium hover:underline">Temukan Kelas Lainnya →</router-link>
+        <router-link to="/under-construction" class="text-green-700 font-medium hover:underline">Temukan Kelas Lainnya →</router-link>
+        <!-- /edukasi/video -->
       </div>
       <div class="overflow-x-auto pb-6">
         <div class="flex gap-6 w-max">
@@ -103,61 +106,71 @@ const kelasList = [
     title: 'Tani Tangguh: Mengelola Risiko di Lahan Sendiri',
     image: '/src/assets/images/kelas1.jpg',
     pengajar: 'Pakar Agronomi',
-    link: '/edukasi/tani-tangguh'
+    // link: '/edukasi/tani-tangguh'
+    link: '/under-construction'
   },
   {
     title: 'Cerdas Digital: Petani Melek Teknologi',
     image: '/src/assets/images/kelas2.jpg',
     pengajar: 'Pakar Teknologi',
-    link: '/edukasi/cerdas-digital'
+    // link: '/edukasi/cerdas-digital'
+    link: '/under-construction'
   },
   {
     title: 'Tani Untung: Strategi Bertani yang Produktif & Berkelanjutan',
     image: '/src/assets/images/kelas3.jpg',
     pengajar: 'Pakar Keuangan',
-    link: '/edukasi/tani-untung'
+    // link: '/edukasi/tani-untung'
+    link: '/under-construction'
   },
   {
     title: 'Pakar Agronomi',
     image: '/src/assets/images/pakar1.jpg',
     pengajar: 'Pakar Agronomi',
-    link: '/edukasi/pakar-agronomi'
+    // link: '/edukasi/pakar-agronomi'
+    link: '/under-construction'
   },
   {
     title: 'Pakar Iklim dan Cuaca',
     image: '/src/assets/images/pakar2.jpg',
     pengajar: 'Pakar Iklim',
-    link: '/edukasi/pakar-cuaca'
+    // link: '/edukasi/pakar-cuaca'
+    link: '/under-construction'
   },
   {
     title: 'Pakar Keuangan',
     image: '/src/assets/images/pakar3.jpg',
     pengajar: 'Pakar Keuangan',
-    link: '/edukasi/pakar-keuangan'
+    // link: '/edukasi/pakar-keuangan'
+    link: '/under-construction'
   },
   {
     title: 'Pakar Teknologi Pertanian',
     image: '/src/assets/images/pakar4.jpg',
     pengajar: 'Pakar Teknologi',
-    link: '/edukasi/pakar-teknologi'
+    // link: '/edukasi/pakar-teknologi'
+    link: '/under-construction'
   },
   {
     title: 'Panen Aman, Hati Tenang',
     image: '/src/assets/images/video1.jpg',
     pengajar: 'Tim Edukasi GAMA',
-    link: '/edukasi/video-panen-aman'
+    // link: '/edukasi/video-panen-aman'
+    link: '/under-construction'
   },
   {
     title: 'Aplikasi GAMA: Panduan Praktis dari Sawah ke Layar',
     image: '/src/assets/images/video2.jpg',
     pengajar: 'Tim Edukasi GAMA',
-    link: '/edukasi/video-panduan-gama'
+    // link: '/edukasi/video-panduan-gama'
+    link: '/under-construction'
   },
   {
     title: 'Cuaca, Komoditas, dan Keputusan Bertani',
     image: '/src/assets/images/video3.jpg',
     pengajar: 'Pakar Cuaca & Komoditas',
-    link: '/edukasi/video-cuaca-komoditas'
+    // link: '/edukasi/video-cuaca-komoditas'
+    link: '/under-construction'
   }
 ]
 </script>

@@ -92,8 +92,10 @@ const products = [
       'Jaga stabilitas penghasilan petani',
       'Data harga transparan & akurat'
     ],
-    startLink: '/daftar/harga-komoditas',
-    detailLink: '/asuransi/harga-komoditas'
+    // startLink: '/daftar/harga-komoditas',
+    // detailLink: '/asuransi/harga-komoditas'
+    startLink: '/under-construction',
+    detailLink: '/under-construction'
   },
   {
     title: 'Asuransi Alat Tani',
@@ -105,8 +107,10 @@ const products = [
       'Proteksi alat pertanian penting',
       'Kinerja pertanian lebih terjaga'
     ],
-    startLink: '/daftar/alat-tani',
-    detailLink: '/asuransi/alat-tani'
+    // startLink: '/daftar/alat-tani',
+    // detailLink: '/asuransi/alat-tani'
+    startLink: '/under-construction',
+    detailLink: '/under-construction'
   }
 ]
 </script>

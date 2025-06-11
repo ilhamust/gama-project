@@ -5,6 +5,7 @@ import Dashboard from '../pages/Dashboard.vue'
 import ProdukAsuransi from '../pages/ProdukAsuransi.vue'
 import Edukasi from '../pages/Edukasi.vue'
 import TentangKami from '../pages/TentangKami.vue'
+import UnderConstruction from '../pages/UnderConstruction.vue'
 
 const routes = [
   { path: '/', component: Landing },
@@ -12,7 +13,8 @@ const routes = [
   { path: '/dashboard', component: Dashboard },
   { path: '/produk-asuransi', component: ProdukAsuransi },
   { path: '/edukasi', component: Edukasi },
-  { path: '/tentang-kami', component: TentangKami }
+  { path: '/tentang-kami', component: TentangKami },
+  { path: '/under-construction', component: UnderConstruction }
 ]
 
 const router = createRouter({

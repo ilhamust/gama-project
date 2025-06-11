@@ -182,7 +182,6 @@ onUnmounted(() => {
             <li><router-link to="/produk-asuransi" class="hover:underline">Asuransi Gagal Panen</router-link></li>
             <li><router-link to="/produk-asuransi" class="hover:underline">Asuransi Harga Komoditas</router-link></li>
             <li><router-link to="/produk-asuransi" class="hover:underline">Asuransi Alat Tani</router-link></li>
-            <li><router-link to="/konsultasi" class="hover:underline">Konsultasi Pertanian</router-link></li>
           </ul>
         </div>
 
@@ -191,9 +190,8 @@ onUnmounted(() => {
           <h3 class="text-md font-semibold mb-3">Informasi</h3>
           <ul class="space-y-2 text-sm text-white/90">
             <li><router-link to="/edukasi" class="hover:underline">Edukasi Pertanian</router-link></li>
-            <li><router-link to="/informasi-alat" class="hover:underline">Informasi Alat Tani</router-link></li>
+            <li><router-link to="/under-construction" class="hover:underline">Berita</router-link></li>
             <li><router-link to="/tentang-kami" class="hover:underline">Tentang Kami</router-link></li>
-            <li><router-link to="/kontak" class="hover:underline">Hubungi Kami</router-link></li>
           </ul>
         </div>
 

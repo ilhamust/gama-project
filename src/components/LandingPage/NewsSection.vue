@@ -75,7 +75,8 @@ const news = [
       'Musim tanam kini tak lagi menegangkan. Dengan Asuransi Gagal Panen, petani tetap mendapat perlindungan saat tanaman gagal panen akibat banjir, kekeringan, atau serangan hama. Pemerintah dan mitra asuransi siap bantu petani bangkit!',
     date: '5 Juni 2025',
     image: '/images/news1.jpg',
-    link: '/berita/asuransi-cuaca-digital'
+    // link: '/berita/asuransi-cuaca-digital'
+    link: '/under-construction'
   },
   {
     title: 'Harga Anjlok? Petani Tetap Aman Berkat Asuransi Harga Komoditas',
@@ -83,7 +84,8 @@ const news = [
       'Fluktuasi harga hasil panen tak perlu dikhawatirkan lagi. Asuransi Harga Komoditas hadir untuk menjaga kestabilan penghasilan petani saat harga pasar turun drastis. Solusi pasti untuk petani cerdas masa kini.',
     date: '4 Juni 2025',
     image: '/images/news2.jpg',
-    link: '/berita/asuransi-harga-komoditas'
+    // link: '/berita/asuransi-harga-komoditas'
+    link: '/under-construction'
   },
   {
     title: 'Alat Tani Rusak? Kini Bisa Diasuransikan!',
@@ -91,7 +93,8 @@ const news = [
       'Asuransi Alat Tani memberikan perlindungan pada alat-alat penting pertanian Anda, mulai dari traktor, pompa air, hingga alat semprot. Kerusakan tak lagi jadi hambatan panen. Kerja tenang, hasil maksimal.',
     date: '3 Juni 2025',
     image: '/images/news3.jpg',
-    link: '/berita/asuransi-alat-tani'
+    // link: '/berita/asuransi-alat-tani'
+    link: '/under-construction'
   }
 ]
 

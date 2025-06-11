@@ -9,7 +9,6 @@
 </template>
 
 <script setup>
-import Layout from '../components/Layout.vue'
 import HeroSection from '../components/LandingPage/HeroSection.vue'
 import NewsSection from '../components/LandingPage/NewsSection.vue'
 // import CompanyProfileSection from '../components/LandingPage/CompanyProfileSection.vue'
