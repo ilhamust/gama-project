@@ -1,10 +1,10 @@
 <template>
-  <section class="min-h-screen bg-gray-50  flex flex-col items-center justify-center px-4 text-center">
+  <section class="min-h-screen bg-white  flex flex-col items-center justify-center px-4 text-center">
     <!-- Ilustrasi -->
     <img
-      src=""
+      src="https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif"
       alt="Sedang dalam pengembangan"
-      class="w-56 md:w-64 mb-6"
+      class="w-72 md:w-[400px] lg:w-[480px]"
     />
 
     <!-- Judul -->
