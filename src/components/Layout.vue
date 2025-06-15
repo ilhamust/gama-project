@@ -201,7 +201,7 @@ onUnmounted(() => {
           <p class="text-sm text-white/80 leading-relaxed">
             Jl. Ringroad Barat, Dowangan<br />
             Sleman, Yogyakarta 5529<br />
-            Email: <a href="mailto:gama@gmail.com">gama@gmail.com</a><br />
+            Email: <a href="mailto:gamagroup.id@gmail.com">gamagroup.id@gmail.com</a><br />
             Telp: <a href="tel:+628818548476">+62 881 8548 476</a>
           </p>
         </div>

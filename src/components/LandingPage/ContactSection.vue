@@ -9,7 +9,7 @@
         </p>
         <ul class="mt-6 space-y-2 text-white/90">
           <li><i class="fas fa-map-marker-alt mr-2"></i>Jl. Ringroad Barat, Sleman, Yogyakarta</li>
-          <li><i class="fas fa-envelope mr-2"></i>gama@gmail.com</li>
+          <li><i class="fas fa-envelope mr-2"></i>gamagroup.id@gmail.com</li>
           <li><i class="fas fa-phone mr-2"></i>+62 881 8548 476</li>
         </ul>
       </div>
