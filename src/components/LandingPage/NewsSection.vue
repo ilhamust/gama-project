@@ -13,34 +13,23 @@
       <div class="flex flex-col lg:flex-row gap-12">
         <!-- Kolom Kiri: Berita Utama -->
         <div class="flex-1 space-y-10">
-          <div
-            v-for="(item, index) in news"
-            :key="index"
-            class="group flex flex-col md:flex-row gap-6"
-            data-aos="fade-up"
-          >
+          <div v-for="(item, index) in news" :key="index" class="group flex flex-col md:flex-row gap-6"
+            data-aos="fade-up">
             <!-- Gambar -->
             <div class="overflow-hidden rounded-lg w-full md:w-60 h-44">
-              <img
-                :src="item.image"
-                alt="Gambar berita"
-                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
+              <img :src="item.image" alt="Gambar berita"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
             </div>
 
             <!-- Konten -->
             <div class="flex-1">
               <p class="text-sm text-gray-400 mb-1">{{ item.date }}</p>
               <h3
-                class="text-lg font-semibold text-gray-800 mb-2 transition-colors duration-300 group-hover:text-green-700"
-              >
+                class="text-lg font-semibold text-gray-800 mb-2 transition-colors duration-300 group-hover:text-green-700">
                 {{ item.title }}
               </h3>
               <p class="text-sm text-gray-600">{{ item.summary }}</p>
-              <router-link
-                :to="item.link"
-                class="mt-3 inline-block text-green-700 hover:underline text-sm font-medium"
-              >
+              <router-link :to="item.link" class="mt-3 inline-block text-green-700 hover:underline text-sm font-medium">
                 Baca Selengkapnya →
               </router-link>
             </div>
@@ -51,17 +40,21 @@
         <aside class="w-full lg:w-1/3 space-y-6">
           <h4 class="text-xl font-semibold text-green-700">Berita Populer</h4>
           <ul class="space-y-4">
-            <li
-              v-for="(item, index) in popularNews"
-              :key="index"
-              class="border-l-4 border-green-700 pl-4 hover:bg-green-50 transition"
-            >
+            <li v-for="(item, index) in popularNews" :key="index"
+              class="border-l-4 border-green-700 pl-4 hover:bg-green-50 transition">
               <router-link :to="item.link" class="text-sm text-gray-800 font-medium hover:text-green-700">
                 {{ item.title }}
               </router-link>
             </li>
           </ul>
         </aside>
+      </div>
+      <!-- Tombol Lihat Selengkapnya /berita -->
+      <div class="text-center mt-12" data-aos="fade-up">
+        <router-link to="/under-construction"
+          class="inline-block border border-green-700 text-green-700 px-6 py-2 rounded hover:bg-green-700 hover:text-white transition">
+          Lihat Selengkapnya
+        </router-link>
       </div>
     </div>
   </section>
