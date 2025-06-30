@@ -104,70 +104,70 @@
 const kelasList = [
   {
     title: 'Tani Tangguh: Mengelola Risiko di Lahan Sendiri',
-    image: '/src/assets/images/kelas1.jpg',
+    image: '/src/assets/images/kelas1.png',
     pengajar: 'Pakar Agronomi',
     // link: '/edukasi/tani-tangguh'
     link: '/under-construction'
   },
   {
     title: 'Cerdas Digital: Petani Melek Teknologi',
-    image: '/src/assets/images/kelas2.jpg',
+    image: '/src/assets/images/kelas2.png',
     pengajar: 'Pakar Teknologi',
     // link: '/edukasi/cerdas-digital'
     link: '/under-construction'
   },
   {
     title: 'Tani Untung: Strategi Bertani yang Produktif & Berkelanjutan',
-    image: '/src/assets/images/kelas3.jpg',
+    image: '/src/assets/images/kelas3.png',
     pengajar: 'Pakar Keuangan',
     // link: '/edukasi/tani-untung'
     link: '/under-construction'
   },
   {
     title: 'Pakar Agronomi',
-    image: '/src/assets/images/pakar1.jpg',
+    image: '/src/assets/images/pakar1.png',
     pengajar: 'Pakar Agronomi',
     // link: '/edukasi/pakar-agronomi'
     link: '/under-construction'
   },
   {
     title: 'Pakar Iklim dan Cuaca',
-    image: '/src/assets/images/pakar2.jpg',
+    image: '/src/assets/images/pakar2.png',
     pengajar: 'Pakar Iklim',
     // link: '/edukasi/pakar-cuaca'
     link: '/under-construction'
   },
   {
     title: 'Pakar Keuangan',
-    image: '/src/assets/images/pakar3.jpg',
+    image: '/src/assets/images/pakar3.png',
     pengajar: 'Pakar Keuangan',
     // link: '/edukasi/pakar-keuangan'
     link: '/under-construction'
   },
   {
     title: 'Pakar Teknologi Pertanian',
-    image: '/src/assets/images/pakar4.jpg',
+    image: '/src/assets/images/pakar4.png',
     pengajar: 'Pakar Teknologi',
     // link: '/edukasi/pakar-teknologi'
     link: '/under-construction'
   },
   {
     title: 'Panen Aman, Hati Tenang',
-    image: '/src/assets/images/video1.jpg',
+    image: '/src/assets/images/video1.png',
     pengajar: 'Tim Edukasi GAMA',
     // link: '/edukasi/video-panen-aman'
     link: '/under-construction'
   },
   {
     title: 'Aplikasi GAMA: Panduan Praktis dari Sawah ke Layar',
-    image: '/src/assets/images/video2.jpg',
+    image: '/src/assets/images/video2.png',
     pengajar: 'Tim Edukasi GAMA',
     // link: '/edukasi/video-panduan-gama'
     link: '/under-construction'
   },
   {
     title: 'Cuaca, Komoditas, dan Keputusan Bertani',
-    image: '/src/assets/images/video3.jpg',
+    image: '/src/assets/images/video3.png',
     pengajar: 'Pakar Cuaca & Komoditas',
     // link: '/edukasi/video-cuaca-komoditas'
     link: '/under-construction'
